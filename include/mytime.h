@@ -3,9 +3,6 @@
 
 #include <iostream>
 
-namespace org {
-namespace kpit {
-namespace pnp {
 
 class MyTime {
   int hh;
@@ -27,8 +24,5 @@ class MyTime {
   MyTime& operator=(int);  // scalar to userdefined
   operator int();          // userdefined to scalar
   friend std::ostream& operator<<(std::ostream&, const MyTime&);
-};
-};
-};
 };
 #endif /* INCLUDE_MYTIME_H_ */
