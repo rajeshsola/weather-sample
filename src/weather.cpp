@@ -25,8 +25,8 @@ double CityWeather::humidity() const {
   // return m_humidity;    //operator double()
 }
 std::ostream &operator<<(std::ostream &rout, const CityWeather &ref) {
-  rout << ref.m_cityCode << "," << ref.m_cityName << "," << ref.m_temperature.reading() << ","
-       << ref.m_humidity.reading() << "," << ref.m_logtime << "\n";
+//  rout << ref.m_cityCode << "," << ref.m_cityName << "," << ref.m_temperature.reading() << ","
+  //     << ref.m_humidity.reading() << "," << ref.m_logtime << "\n";
   // TODO: better display of details(user friendly)
   return rout;
 }
