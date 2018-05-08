@@ -14,7 +14,7 @@ void CityWeather::updateHumidity(double hval) {
 void CityWeather::setTimestamp() {
   time_t now = time(0);
   struct tm *tptr = localtime(&now);
-  m_logtime.update(tptr->tm_hour, tptr->tm_min);
+  //m_logtime.update(tptr->tm_hour, tptr->tm_min);
 }
 double CityWeather::temperature() const {
   return m_temperature.reading();

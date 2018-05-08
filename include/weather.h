@@ -13,7 +13,7 @@ class CityWeather {
   MyString m_cityName;
   Temperature m_temperature;
   Humidity m_humidity;
-  MyTime m_logtime;
+  //MyTime m_logtime;
 
  public:
   CityWeather() : m_temperature(24), m_humidity(72) {}

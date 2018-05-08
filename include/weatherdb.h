@@ -10,6 +10,7 @@
 
 #include <myarray.h>
 #include <weather.h>
+#include <mytime.h>
 
 class WeatherDb {
   MyArray<CityWeather>* w_array;
@@ -25,9 +26,9 @@ class WeatherDb {
   void insert(MyString& city, Temperature& tval, Humidity& mval) {
     // TODO
   }
-  void insert(MyString& city, Temperature& tval, Humidity& mval, MyTime& t) {
+  //void insert(MyString& city, Temperature& tval, Humidity& mval, MyTime& t) {
     // TODO
-  }
+  //}
   CityWeather& findByCityName(const char* city) {
     // TODO
   }
