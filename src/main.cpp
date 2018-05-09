@@ -12,6 +12,6 @@ int main() {
    * find by city code, find by city name,
    * aggregations on temperature,humidity
    */
-  //test changes
+  //tested github desktop client
   return 0;
 }
